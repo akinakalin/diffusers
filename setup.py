@@ -101,7 +101,7 @@ _deps = [
     "scipy",
     "regex!=2019.12.17",
     "requests",
-    "tensorboard",
+    "tensorboard==2.11.0",
     "torch>=1.4",
     "torchvision",
     "transformers>=4.21.0",
