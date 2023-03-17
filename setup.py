@@ -78,17 +78,17 @@ from setuptools import find_packages, setup
 # 1. all dependencies should be listed here with their version requirements if any
 # 2. once modified, run: `make deps_table_update` to update src/diffusers/dependency_versions_table.py
 _deps = [
-    "Pillow",  # keep the PIL.Image.Resampling deprecation away
-    "accelerate>=0.11.0",
+    "Pillow==9.4.0",  # keep the PIL.Image.Resampling deprecation away
+    "accelerate==0.15.0",
     "black==22.8",
-    "datasets",
+    "datasets==2.10.1",
     "filelock==3.9.0",
-    "flake8>=3.8.3",
-    "flax>=0.4.1",
-    "hf-doc-builder>=0.3.0",
+    "flake8==6.0.0",
+    "flax==0.6.3",
+    "hf-doc-builder==0.4.0",
     "huggingface-hub>=0.10.0",
-    "importlib_metadata",
-    "isort>=5.5.4",
+    "importlib-metadata==6.0.0",
+    "isort==5.11.4",
     "jax>=0.2.8,!=0.3.2",
     "jaxlib>=0.1.65",
     "modelcards>=0.1.4",
@@ -98,13 +98,13 @@ _deps = [
     "pytest-timeout",
     "pytest-xdist",
     "sentencepiece>=0.1.91,!=0.1.92",
-    "scipy",
+    "scipy==1.9.3",
     "regex!=2019.12.17",
-    "requests",
+    "requests==2.28.2",
     "tensorboard==2.11.0",
-    "torch>=1.4",
+    "torch==1.13.1",
     "torchvision==0.14.1",
-    "transformers>=4.21.0",
+    "transformers==4.26.1",
 ]
 
 # this is a lookup table with items like:
