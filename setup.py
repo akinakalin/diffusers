@@ -82,7 +82,7 @@ _deps = [
     "accelerate>=0.11.0",
     "black==22.8",
     "datasets",
-    "filelock",
+    "filelock==3.9.0",
     "flake8>=3.8.3",
     "flax>=0.4.1",
     "hf-doc-builder>=0.3.0",
@@ -103,7 +103,7 @@ _deps = [
     "requests",
     "tensorboard==2.11.0",
     "torch>=1.4",
-    "torchvision",
+    "torchvision==0.14.1",
     "transformers>=4.21.0",
 ]
 
