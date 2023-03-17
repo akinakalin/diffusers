@@ -92,7 +92,7 @@ _deps = [
     "jax>=0.2.8,!=0.3.2",
     "jaxlib>=0.1.65",
     "modelcards>=0.1.4",
-    "numpy",
+    "numpy==1.23.5",
     "parameterized",
     "pytest",
     "pytest-timeout",
