@@ -187,7 +187,7 @@ extras["test"] = deps_list(
     "sentencepiece",
     "scipy",
     "torchvision",
-    "transformers"
+    "transformers",
 )
 extras["torch"] = deps_list("torch", "accelerate")
 
